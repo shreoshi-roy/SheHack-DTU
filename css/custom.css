@@ -1,9 +1,10 @@
 .track{
   padding: 20px;
+  color: #fcf8e8;
 }
 
 .track-heading{
-  color: #f64b3c;
+  color: black;
 }
 
 .track-hr-mid{
@@ -22,4 +23,15 @@
   border-width: 1px;
   border-style: solid;
   border-color: black;
+}
+
+
+/****FAQ****/
+.faq{
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.faq h2{
+  color: white;
 }
