@@ -17,22 +17,26 @@
   color: black;
 }
 
-.track-hr-mid{
-  border-width: 1px 0;
-  border-style: solid;
-  border-color: black;
-}
-
-.track-vr-mid{
-  border-width: 0 1px;
+.track-top{
+  border-width: 0 1px 1px 0;
   border-style: solid;
   border-color: black;
 }
 
 .track-mid{
-  border-width: 1px;
+  border-width: 0 1px 1px 0;
   border-style: solid;
   border-color: black;
+}
+
+.track-bottom{
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: black;
+}
+
+.track-end{
+  border-right: 0;
 }
 
 
