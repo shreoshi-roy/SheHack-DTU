@@ -91,6 +91,15 @@
   border-right: 0;
 }
 
+.tg-brand{
+    height:190px;
+    max-width: 294px;
+    width:auto;
+}
+
+.zulip img{
+  height: 190px;
+}
 
 /****Footer****/
 .footer-info{
