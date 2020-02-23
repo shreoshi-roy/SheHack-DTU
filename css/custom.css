@@ -27,6 +27,7 @@
     text-align: center;
     text-transform: lowercase;
     margin: auto;
+    margin-top: 12%;
 }
 
 #devfolio-apply-now:not([disabled]) {
