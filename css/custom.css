@@ -26,8 +26,7 @@
     padding: 12px 20px;
     text-align: center;
     text-transform: lowercase;
-    margin: auto;
-    margin-top: 12%;
+    margin: 100px auto auto;
 }
 
 #devfolio-apply-now:not([disabled]) {
