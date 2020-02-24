@@ -211,7 +211,7 @@
 	.tg-header.tg-headervthree .tg-logo{width:135px;}
 	.tg-headervthree .tg-navigationarea{width:100%;}
 	.tg-homebanner .tg-themepostimg > img{
-		width:auto;
+		/*width:auto;*/
 		height:700px;
 		max-width:none;
 	}
@@ -271,7 +271,7 @@
 	.tg-gallerytabcontent{padding:0;}
 	.tg-homebannervtwo .tg-themepostimg img{
 		height: 600px;
-		width: auto;
+		/*width: auto;*/
 		max-width: none;
 	}
 	.tg-eventcounterholder {padding: 0 20px;}
