@@ -809,8 +809,6 @@ body.tg-fixedme .tg-header{
 .tg-logo{float:left;}
 .tg-logo a{display:block;}
 .tg-logo a img{
-	width:100%;
-	height:auto;
 	display:block;
 }
 body.tg-fixedme .tg-header .tg-logo{width:130px;}
