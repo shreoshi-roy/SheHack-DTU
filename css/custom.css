@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.tg-homebannervtwo .tg-bannercontent .tg-datetime.event-date{
+  margin-top: 15%;
+}
+
+
 
 /****apply now button****/
 #devfolio-apply-now {
