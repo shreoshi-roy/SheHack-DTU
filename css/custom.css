@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 /****header****/
 .tg-header{
   padding: 20px 0;
@@ -8,6 +9,17 @@
 
 .tg-homebannervtwo .tg-bannercontent .tg-datetime.event-date{
   margin-top: 25%;
+}
+
+.tg-homebannervtwo .tg-bannercontent .tg-datetime.heading{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size:9vmin;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.tg-homebannervtwo .tg-bannercontent .tg-datetime.font{
+  font-family:Raleway;
 }
 
 
@@ -31,7 +43,7 @@
     padding: 12px 20px;
     text-align: center;
     text-transform: lowercase;
-    margin: 7% auto 0;
+    margin: 7% auto 5%;
 }
 
 #devfolio-apply-now:not([disabled]) {
