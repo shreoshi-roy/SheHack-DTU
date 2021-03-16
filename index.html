@@ -1,9 +1,11 @@
-
 <!doctype html>
 <!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +13,15 @@
 	<meta content="SheHacks DTU" property="og:site_name" />
 	<meta content="SheHacks DTU | Delhi's largest all Women Hackathon" property="og:title" />
 	<meta content="https://shehacks.climbdtu.co/" property="og:url" />
-	<meta content="https://raw.githubusercontent.com/shreoshi-roy/shreoshi-roy.github.io/master/images/meta%20logo.png" property="og:image" />
+	<meta content="https://shehacks.climbdtu.co/images/logo.png" property="og:image" />
 	<meta content="CLIMB - the all women community of DTU presents SheHacks DTU, an all women hackathon for women Read more..." property="og:description" />
 	<title>SheHacks DTU</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="images/favicon.ico" rel="icon">
-  <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+	<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -52,7 +54,7 @@
 		************************************
 				SideBar Navigation Start
 		*************************************-->
-		<!--<div class="tg-sidenavholder">
+	<!--<div class="tg-sidenavholder">
 			<div id="tg-sidenav" class="tg-sidenav">
 				<a href="javascript:void(0);" class="tg-close"><i class="icon-cross"></i></a>
 				<div id="tg-navscrollbar" class="tg-navscrollbar">
@@ -90,117 +92,121 @@
 		************************************
 				SideBar Navigation End
 		*************************************-->
-		<!--************************************
+	<!--************************************
 				Header Start
 		*************************************-->
-		<header id="tg-header" class="tg-header">
+	<header id="tg-header" class="tg-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<strong class="tg-logo"><a href="index.html"><img class="logo" src="images/logo.png" alt="company logo here"></a></strong>
+					<div class="tg-navigationarea">
+						<!--<a class="tg-btn tg-btnbecommember" href="javascript:void(0);"><span class="tg-badge">256 Left</span>Book Your Seat</a>-->
+						<!--<a id="tg-btnopenclose" class="tg-btnopenclose" href="javascript:void(0);"><i class="fa fa-bars"></i></a>-->
+						<nav id="tg-nav" class="tg-nav">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+								<ul>
+									<li class="tg-active menu-item-has-children">
+										<a href="#body">Home</a></li>
+									<li><a href="#tg-tracks">Tracks</a></li>
+									<li><a href="#tg-schedule">Schedule</a></li>
+									<li><a href="#tg-sponsors">Sponsors</a></li>
+									<li><a href="https://devfolio.co/code-of-conduct">Code of Conduct</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--************************************
+				Header End
+		*************************************-->
+	<!--************************************
+				Home Slider Start
+		*************************************-->
+	<div id="tg-homebanner" class="tg-homebannervtwo tg-haslayout">
+		<figure class="tg-themepostimg">
+			<img src="images/banner/img-01.jpg" alt="image description">
+			<figcaption>
+				<div class="container">
+					<div class="tg-bannercontent">
+						<span class="tg-datetime event-date">March 14-15, 2020</span>
+						<span class="tg-datetime">Delhi's largest all Women Hackathon</span>
+						<br /><br />
+						<span class="tg-datetime heading">SheHacks DTU</span>
+						<br />
+						<span class="tg-datetime heading font">#include&lt;her&gt;</span>
+						<!-- <div id="tg-upcomingeventcountervtwo" class="tg-upcomingeventcounter"></div>
+							<div class="tg-btnwhite">
+								<a class="tg-btn" href="#tg-schedule">View Schedule</a>
+							</div>-->
+						<button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px">
+								<path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" />
+								<path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z" /></svg>Apply with Devfolio</button>
+					</div>
+				</div>
+			</figcaption>
+		</figure>
+	</div>
+	<!--************************************
+				Home Slider End
+		*************************************-->
+	<!--************************************
+				Main Start
+		*************************************-->
+	<main id="tg-main" class="tg-main tg-haslayout">
+		<!--************************************
+					About Us Start
+			*************************************-->
+		<section class="tg-sectionspace tg-haslayout">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<strong class="tg-logo"><a href="index.html"><img class="logo" src="images/logo.png" alt="company logo here"></a></strong>
-						<div class="tg-navigationarea">
-							<!--<a class="tg-btn tg-btnbecommember" href="javascript:void(0);"><span class="tg-badge">256 Left</span>Book Your Seat</a>-->
-							<!--<a id="tg-btnopenclose" class="tg-btnopenclose" href="javascript:void(0);"><i class="fa fa-bars"></i></a>-->
-							<nav id="tg-nav" class="tg-nav">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
+					<div class="tg-aboutus">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div class="tg-textshortcode">
+								<div class="tg-sectionhead tg-textalignleft">
+									<div class="tg-sectionheading">
+										<span>Greetings &amp; welcome</span>
+										<h2>About SheHacks DTU</h2>
+										<h3>#include&lt;her&gt;</h3>
+									</div>
+									<div class="tg-description">
+										<p>STEM fields have seen a notorious under-representation of women leading to a flawed perception that undermines their skills. We intend to change this culture and ensure that female students in engineering colleges have a safe
+											space and community to back them. Therefore, CLIMB - the all women community of DTU presents SheHacks DTU, an all women hackathon for women with a passion for technology to come together and build innovative solutions to real
+											world problems!</p>
+									</div>
 								</div>
-								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
-									<ul>
-										<li class="tg-active menu-item-has-children">
-											<a href="#body">Home</a></li>
-										<li><a href="#tg-tracks">Tracks</a></li>
-										<li><a href="#tg-schedule">Schedule</a></li>
-										<li><a href="#tg-sponsors">Sponsors</a></li>
-										<li><a href="https://devfolio.co/code-of-conduct">Code of Conduct</a></li>
-									</ul>
-								</div>
-							</nav>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<div class="tg-videoarea">
+								<figure>
+									<img src="images/video-placeholder.jpg" alt="image description">
+									<!--<figcaption><a href="https://www.youtube.com/watch?v=FVwoQIBPiHU" class="tg-btnplay" data-rel="prettyPhoto[gallery]"><img src="images/btn-playicon.jpg" alt="image description"></a></figcaption>-->
+								</figure>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</header>
+		</section>
 		<!--************************************
-				Header End
-		*************************************-->
-		<!--************************************
-				Home Slider Start
-		*************************************-->
-		<div id="tg-homebanner" class="tg-homebannervtwo tg-haslayout">
-			<figure class="tg-themepostimg">
-				<img src="images/banner/img-01.jpg" alt="image description">
-				<figcaption>
-					<div class="container">
-						<div class="tg-bannercontent">
-							<span class="tg-datetime event-date">March 14-15, 2020</span>
-							<span class="tg-datetime">Delhi's largest all Women Hackathon</span>
-							<br /><br />
-							<span class="tg-datetime heading">SheHacks DTU</span>
-							<br />
-							<span class="tg-datetime heading font">#include&lt;her&gt;</span>
-							<!-- <div id="tg-upcomingeventcountervtwo" class="tg-upcomingeventcounter"></div>
-							<div class="tg-btnwhite">
-								<a class="tg-btn" href="#tg-schedule">View Schedule</a>
-							</div>-->
-							<button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>
-						</div>
-					</div>
-				</figcaption>
-			</figure>
-		</div>
-		<!--************************************
-				Home Slider End
-		*************************************-->
-		<!--************************************
-				Main Start
-		*************************************-->
-		<main id="tg-main" class="tg-main tg-haslayout">
-			<!--************************************
-					About Us Start
-			*************************************-->
-			<section class="tg-sectionspace tg-haslayout">
-				<div class="container">
-					<div class="row">
-						<div class="tg-aboutus">
-							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<div class="tg-textshortcode">
-									<div class="tg-sectionhead tg-textalignleft">
-										<div class="tg-sectionheading">
-											<span>Greetings &amp; welcome</span>
-											<h2>About SheHacks DTU</h2>
-											<h3>#include&lt;her&gt;</h3>
-										</div>
-										<div class="tg-description">
-											<p>STEM fields have seen a notorious under-representation of women leading to a flawed perception that undermines their skills. We intend to change this culture and ensure that female students in engineering colleges have a safe space and community to back them. Therefore, CLIMB - the all women community of DTU presents SheHacks DTU, an all women hackathon for women with a passion for technology to come together and build innovative solutions to real world problems!</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<div class="tg-videoarea">
-									<figure>
-										<img src="images/video-placeholder.jpg" alt="image description">
-										<!--<figcaption><a href="https://www.youtube.com/watch?v=FVwoQIBPiHU" class="tg-btnplay" data-rel="prettyPhoto[gallery]"><img src="images/btn-playicon.jpg" alt="image description"></a></figcaption>-->
-									</figure>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--************************************
 					About Us End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Event Counter Start
 			*************************************-->
-			<!--<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
+		<!--<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
 				<div class="container">
 					<div class="tg-eventinfo tg-eventinfovtwo">
 						<div class="tg-eventcontent">
@@ -211,13 +217,13 @@
 					</div>
 				</div>
 			</section>-->
-			<!--************************************
+		<!--************************************
 					Event Counter End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Speakers Start
 			*************************************-->
-			<!--<section id="tg-speakers" class="tg-sectionspace tg-haslayout">
+		<!--<section id="tg-speakers" class="tg-sectionspace tg-haslayout">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -362,13 +368,13 @@
 					</div>
 				</div>
 			</section>-->
-			<!--************************************
+		<!--************************************
 					Speakers End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Testimonials Start
 			*************************************-->
-			<!--<section class="tg-sectionspace tg-haslayout tg-bgtestimonials">
+		<!--<section class="tg-sectionspace tg-haslayout tg-bgtestimonials">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
@@ -401,105 +407,127 @@
 					</div>
 				</div>
 			</section>-->
-			<!--************************************
+		<!--************************************
 					Testimonials End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Tracks Start
 			*************************************-->
-			<section id="tg-tracks">
-				<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
-					<div class="container">
-						<div class="tg-sectionhead">
-							<div class="tg-eventcontent faq">
-								<span>Choose your track and start innovating</span>
-								<h2>Tracks</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-top">
-								<h4 class="track-heading">Blockchain</h4>
-								<p>Today's most exciting use cases for blockchain technology extend far beyond payments and digital currency. With the advent of "smart contracts" and turing-complete frameworks, blockchain technology has evolved far beyond just bitcoins. It is time to join the Web 3.0 revolution!</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-top">
-								<h4 class="track-heading">Artificial Intelligence</h4>
-								<p>From bots, to personal assistants, and shopping automation, what the future holds for artificial intelligence can be described for sure with at least one word; Exciting. Our machines and devices are getting faster, more efficient and slowly learning to do things on their own.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-top track-end">
-								<h4 class="track-heading">AR/VR</h4>
-								<p>VR and AR is the extension of our minds, and is meant for those interested in building immersive, engaging experiences for real industry applications. From fashion and sports to data visualisation and engineering to education and healthcare, every sector will be impacted by the rise of VR & AR.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-mid">
-								<h4 class="track-heading">FinTech</h4>
-								<p>The financial services industry is facing a wave of digital disruption that is starting to reshape the sector. This industry is currently the second-biggest target for disruption, after health care.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-mid">
-								<h4 class="track-heading">Social Good</h4>
-								<p>Encourage people to change the world for the better. This could mean hacking on politics, helping a nonprofit, or making it easier for others to volunteer their time.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-mid track-end">
-								<h4 class="track-heading">Internet of Things</h4>
-								<p>A world of devices connected by internet opens up opportunities for us that were previously unthinkable. Innovative apps can be built that allow devices to share data and take intelligent decisions.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-bottom">
-								<h4 class="track-heading">Healthcare</h4>
-								<p>None of us need to search far for a friend or family member impacted by sickness or injury. At our most vulnerable moments, we are confronted with a healthcare system woefully incapable of meeting the current demands. We are calling on all hackers and sponsors to innovate for a healthier future.</p>
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-bottom">
-								<h4 class="track-heading">Mobility</h4>
-								<p>From self driving cars to smart cities software and sensor technology is changing the way we move around. Hate traffic? We too. Hate pollution? Same. Hate finding a parking spot? Yep. Join the Future Mobility track and solve these problems.</p>
-								<br />
-							</div>
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 track track-bottom track-end">
-								<h4 class="track-heading">Algortithms</h4>
-								<p>Ever wondered why is there a price hike while we hunt for the same flight over and over? Algorithms do it for the Airlines. This concept of Algorithms has existed for centuries; from increasing your flight fares to making your work easier online, algorithms are an integral part of how computers process data. With this track, you challenge world's best programmers and put your coding skills at their best!</p>
-							</div>
+		<section id="tg-tracks">
+			<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
+				<div class="container">
+					<div class="tg-sectionhead">
+						<div class="tg-eventcontent faq">
+							<span>Choose your track and start innovating</span>
+							<h2>Tracks</h2>
 						</div>
 					</div>
-				</section>
+					<main class="page-content main-1">
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Blockchain</h2>
+								<p class="copy">Today's most exciting use cases for blockchain technology extend far beyond payments and digital currency. With the advent of "smart contracts" and turing-complete frameworks, blockchain technology has evolved far beyond just bitcoins. It is time to join the Web 3.0 revolution!</p>
+								<!-- <button class="btn">View Trips</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Artificial Intelligence</h2>
+								<p class="copy">From bots, to personal assistants, and shopping automation, what the future holds for artificial intelligence can be described for sure with at least one word; Exciting. Our machines and devices are getting faster, more efficient and slowly learning to do things on their own.</p>
+								<!-- <button class="btn">View Trips</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">AR/VR</h2>
+								<p class="copy">VR and AR is the extension of our minds, and is meant for those interested in building immersive, engaging experiences for real industry applications. From fashion and sports to data visualisation and engineering to education and healthcare, every sector will be impacted by the rise of VR & AR.</p>
+								<!-- <button class="btn">Book Now</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">FinTech</h2>
+								<p class="copy">The financial services industry is facing a wave of digital disruption that is starting to reshape the sector. This industry is currently the second-biggest target for disruption, after health care.</p>
+								<!-- <button class="btn">Book Now</button> -->
+							</div>
+						</div>
+					</main>
+
+					<main class="page-content main-2">
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Social Good</h2>
+								<p class="copy">Encourage people to change the world for the better. This could mean hacking on politics, helping a nonprofit, or making it easier for others to volunteer their time.</p>
+								<!-- <button class="btn">View Trips</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Internet of Things</h2>
+								<p class="copy">A world of devices connected by internet opens up opportunities for us that were previously unthinkable. Innovative apps can be built that allow devices to share data and take intelligent decisions.</p>
+								<!-- <button class="btn">View Trips</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Healthcare</h2>
+								<p class="copy">None of us need to search far for a friend or family member impacted by sickness or injury. At our most vulnerable moments, we are confronted with a healthcare system woefully incapable of meeting the current demands. We are calling on all hackers and sponsors to innovate for a healthier future.</p>
+								<!-- <button class="btn">Book Now</button> -->
+							</div>
+						</div>
+						<div class="card">
+							<div class="content">
+								<h2 class="title">Mobility</h2>
+								<p class="copy">From self driving cars to smart cities software and sensor technology is changing the way we move around. Hate traffic? We too. Hate pollution? Same. Hate finding a parking spot? Yep. Join the Future Mobility track and solve these problems.</p>
+								<!-- <button class="btn">Book Now</button> -->
+							</div>
+						</div>
+					</main>
+				</div>
 			</section>
-			<!--************************************
+		</section>
+		<!--************************************
 					Tracks End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Confrences Start
 			*************************************-->
-			<section id="tg-schedule" class="tg-sectionspace tg-haslayout">
-				<div class="container">
-					<div class="row">
-						<div class="tg-eventconfrences">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="tg-headholder">
-									<div class="tg-sectionhead tg-textalignleft">
-										<div class="tg-sectionheading">
-											<span>Don’t forget to attend</span>
-											<h2>Hackathon Schedule</h2>
-										</div>
-										<!--<div class="tg-description">
+		<section id="tg-schedule" class="tg-sectionspace tg-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="tg-eventconfrences">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="tg-headholder">
+								<div class="tg-sectionhead tg-textalignleft">
+									<div class="tg-sectionheading">
+										<span>Don’t forget to attend</span>
+										<h2>Hackathon Schedule</h2>
+									</div>
+									<!--<div class="tg-description">
 											<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quista nostrud exion ullaoaris nisi ut aliquipa ex ea commodo consequat aute.</p>
 										</div>
 										<a class="tg-btndownload" href="javascript:void(0);"><i class="icon-calendar-full"></i><span>Download<em>full schedule</em></span></a>-->
-									</div>
 								</div>
-								<div class="tg-eventscheduletabs">
-									<ul class="tg-eventschedulenav" role="tablist">
-										<li role="presentation" class="active"><a href="#day-one" aria-controls="day-one" role="tab" data-toggle="tab">Day 01<span>March 14, 2020</span></a></li>
-										<li role="presentation"><a href="#day-two" aria-controls="day-two" role="tab" data-toggle="tab">Day 02<span>March 15, 2020</span></a></li>
-									</ul>
-									<div class="tg-eventschedulecontent tab-content">
-										<div role="tabpanel" class="tab-pane active" id="day-one">
-											<div class="tg-eventschaduletime">
-												<h2>Day 01 full schedule</h2>
-												<h3>March 14, 2020</h3>
-											</div>
-											<div class="tg-eventvenuetabs">
+							</div>
+							<div class="tg-eventscheduletabs">
+								<ul class="tg-eventschedulenav" role="tablist">
+									<li role="presentation" class="active"><a href="#day-one" aria-controls="day-one" role="tab" data-toggle="tab">Day 01<span>March 14, 2020</span></a></li>
+									<li role="presentation"><a href="#day-two" aria-controls="day-two" role="tab" data-toggle="tab">Day 02<span>March 15, 2020</span></a></li>
+								</ul>
+								<div class="tg-eventschedulecontent tab-content">
+									<div role="tabpanel" class="tab-pane active" id="day-one">
+										<div class="tg-eventschaduletime">
+											<h2>Day 01 full schedule</h2>
+											<h3>March 14, 2020</h3>
+										</div>
+										<div class="tg-eventvenuetabs">
 
-												<div class="tg-eventvenuecontent tab-content">
-													<figure class="tg-hallimg">
-														<img src="images/hall-bg.jpg" alt="image description">
-													</figure>
-													<div role="tabpanel" class="tab-pane active" id="hall-one">
-														<!--<div class="tg-event">
+											<div class="tg-eventvenuecontent tab-content">
+												<figure class="tg-hallimg">
+													<img src="images/hall-bg.jpg" alt="image description">
+												</figure>
+												<div role="tabpanel" class="tab-pane active" id="hall-one">
+													<!--<div class="tg-event">
 															<div class="tg-eventhead">
 																<div class="tg-leftarea">
 																	<time datetime="2017-12-12">09:00 am - 09:30 am</time>
@@ -533,115 +561,115 @@
 																</div>
 															</div>
 														</div> -->
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">10:00 am - 10:30 am</time>
-																	<div class="tg-title">
-																		<h2>Team Registration</h2>
-																	</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">10:00 am - 10:30 am</time>
+																<div class="tg-title">
+																	<h2>Team Registration</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">10:30 am - 11:00 am</time>
-																	<div class="tg-title">
-																		<h2>Ice-breaking Session</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">11:00 am - 12:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Opening Ceremony and Keynote by CLIMB</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">12 pm</time>
-																	<div class="tg-title">
-																		<h2>Hacking begins</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">1:00 pm - 2:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Tezos Blockchain Workshop by OP Malviya</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">2:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Lunch</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">5:00 pm - 6:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Snacks</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">06:30 pm - 8:00 pm</time>
-																	<div class="tg-title">
-																		<h2>First Round of Evaluation</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">9:00 pm - 10:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Dinner</h2>
-																	</div>
-																</div>
-															</div>
-														</div>
-
 													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">10:30 am - 11:00 am</time>
+																<div class="tg-title">
+																	<h2>Ice-breaking Session</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">11:00 am - 12:00 pm</time>
+																<div class="tg-title">
+																	<h2>Opening Ceremony and Keynote by CLIMB</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">12 pm</time>
+																<div class="tg-title">
+																	<h2>Hacking begins</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">1:00 pm - 2:00 pm</time>
+																<div class="tg-title">
+																	<h2>Tezos Blockchain Workshop by OP Malviya</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">2:00 pm</time>
+																<div class="tg-title">
+																	<h2>Lunch</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">5:00 pm - 6:00 pm</time>
+																<div class="tg-title">
+																	<h2>Snacks</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">06:30 pm - 8:00 pm</time>
+																<div class="tg-title">
+																	<h2>First Round of Evaluation</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">9:00 pm - 10:00 pm</time>
+																<div class="tg-title">
+																	<h2>Dinner</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+
 												</div>
 											</div>
 										</div>
+									</div>
 
-										<div role="tabpanel" class="tab-pane" id="day-two">
-											<div class="tg-eventschaduletime">
-												<h2>Day 02 full schedule</h2>
-												<h3>March 15, 2020</h3>
-											</div>
-											<div class="tg-eventvenuetabs">
+									<div role="tabpanel" class="tab-pane" id="day-two">
+										<div class="tg-eventschaduletime">
+											<h2>Day 02 full schedule</h2>
+											<h3>March 15, 2020</h3>
+										</div>
+										<div class="tg-eventvenuetabs">
 
-												<div class="tg-eventvenuecontent tab-content">
-													<figure class="tg-hallimg">
-														<img src="images/hall-bg.jpg" alt="image description">
-													</figure>
-													<div role="tabpanel" class="tab-pane active" id="hall-six">
-														<!--<div class="tg-event">
+											<div class="tg-eventvenuecontent tab-content">
+												<figure class="tg-hallimg">
+													<img src="images/hall-bg.jpg" alt="image description">
+												</figure>
+												<div role="tabpanel" class="tab-pane active" id="hall-six">
+													<!--<div class="tg-event">
 															<div class="tg-eventhead">
 																<div class="tg-leftarea">
 																	<time datetime="2017-12-12">09:00 am - 09:30 am</time>
@@ -675,63 +703,62 @@
 																</div>
 															</div>
 														</div>-->
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">2:00 am - 3:00 am</time>
-																	<div class="tg-title">
-																		<h2>Midnight Snacks and Fun Activities</h2>
-																	</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">2:00 am - 3:00 am</time>
+																<div class="tg-title">
+																	<h2>Midnight Snacks and Fun Activities</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">8:30 am - 9:30 am</time>
-																	<div class="tg-title">
-																		<h2>Breakfast</h2>
-																	</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">8:30 am - 9:30 am</time>
+																<div class="tg-title">
+																	<h2>Breakfast</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">10:00 am - 11:00 am</time>
-																	<div class="tg-title">
-																		<h2>Final Round of Evaluation</h2>
-																	</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">10:00 am - 11:00 am</time>
+																<div class="tg-title">
+																	<h2>Final Round of Evaluation</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">11:30 am - 12:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Shortlisting Top Teams and Introduction of Judges</h2>
-																	</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">11:30 am - 12:00 pm</time>
+																<div class="tg-title">
+																	<h2>Shortlisting Top Teams and Introduction of Judges</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">12:00 pm - 1:00 pm</time>
-																	<div class="tg-title">
-																		<h2>Presentation and Demo by Top Teams</h2>
-																	</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">12:00 pm - 1:00 pm</time>
+																<div class="tg-title">
+																	<h2>Presentation and Demo by Top Teams</h2>
 																</div>
 															</div>
 														</div>
-														<div class="tg-event tg-eventbreak">
-															<div class="tg-eventhead">
-																<div class="tg-leftarea">
-																	<time datetime="2017-12-12">1:00 pm - 1:30 pm</time>
-																	<div class="tg-title">
-																		<h2>Result Announcement and Closing Ceremony</h2>
-																	</div>
+													</div>
+													<div class="tg-event tg-eventbreak">
+														<div class="tg-eventhead">
+															<div class="tg-leftarea">
+																<time datetime="2017-12-12">1:00 pm - 1:30 pm</time>
+																<div class="tg-title">
+																	<h2>Result Announcement and Closing Ceremony</h2>
 																</div>
 															</div>
 														</div>
@@ -739,92 +766,94 @@
 												</div>
 											</div>
 										</div>
-
 									</div>
+
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!--************************************
+			</div>
+		</section>
+		<!--************************************
 					Confrences End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Ask Question Start
 			*************************************-->
-			<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<div class="tg-faqs">
-								<div class="tg-sectionhead tg-textalignleft">
-									<div class="tg-eventcontent faq">
-										<span>Never hesitate to ask</span>
-										<h2>Frequently asked questions</h2>
+		<section class="tg-haslayout tg-sectionspace tg-bgaddtocalendar">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="tg-faqs">
+							<div class="tg-sectionhead tg-textalignleft">
+								<div class="tg-eventcontent faq">
+									<span>Never hesitate to ask</span>
+									<h2>Frequently asked questions</h2>
+								</div>
+							</div>
+							<div id="tg-accordion" class="tg-accordion" role="tablist" aria-multiselectable="true">
+								<div class="tg-panel">
+									<h4><span>Q.</span>Is participation free of charge?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>YES. TOTALLY. We offer you free participation, free resting lounge, free snacks.</p>
+										</div>
 									</div>
 								</div>
-								<div id="tg-accordion" class="tg-accordion" role="tablist" aria-multiselectable="true">
-									<div class="tg-panel">
-										<h4><span>Q.</span>Is participation free of charge?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>YES. TOTALLY. We offer you free participation, free resting lounge, free snacks.</p>
-											</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>Do I have to stay at the venue for the whole duration?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>No. But as a minimum, we expect you to register at the event and meet the judges/mentors at the start. Be present and show your project to the mentors/judges at the midway checkpoint and join the Finals/Award
+												ceremony. But who would want to miss the spirit of the whole event? So be there, it will be AMAZING.</p>
 										</div>
 									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>Do I have to stay at the venue for the whole duration?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>No. But as a minimum, we expect you to register at the event and meet the judges/mentors at the start. Be present and show your project to the mentors/judges at the midway checkpoint and join the Finals/Award ceremony. But who would want to miss the spirit of the whole event? So be there, it will be AMAZING.</p>
-											</div>
+								</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>Can I participate if I cannot write code?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>Yes you can! But we definitely recommend you to team up with some people with coding skills. Business developers, designers are important in every team!</p>
 										</div>
 									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>Can I participate if I cannot write code?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>Yes you can! But we definitely recommend you to team up with some people with coding skills. Business developers, designers are important in every team!</p>
-											</div>
+								</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>I am a beginner. Can I participate?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>Yes you can! We have expert mentors for every track to help you make the most of your time with us!</p>
 										</div>
 									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>I am a beginner. Can I participate?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>Yes you can! We have expert mentors for every track to help you make the most of your time with us!</p>
-											</div>
+								</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>Can I apply individually?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>You may apply as an individual and in our networking and ice-breaker session, we'll help you find your Dream Team!</p>
 										</div>
 									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>Can I apply individually?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>You may apply as an individual and in our networking and ice-breaker session, we'll help you find your Dream Team!</p>
-											</div>
+								</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>Is there a limit to number of team members?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>A team can have upto a maximum of 4 members.</p>
 										</div>
 									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>Is there a limit to number of team members?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>A team can have upto a maximum of 4 members.</p>
-											</div>
-										</div>
-									</div>
-									<div class="tg-panel">
-										<h4><span>Q.</span>What should I bring with me?</h4>
-										<div class="tg-panelcontent">
-											<div class="tg-description">
-												<p><span>A.</span>Bring your own laptop and other devices such as your phone, tablet, chargers, travel and laptop adapters etc. Also bring your personal items and whatever you think you would need!</p>
-											</div>
+								</div>
+								<div class="tg-panel">
+									<h4><span>Q.</span>What should I bring with me?</h4>
+									<div class="tg-panelcontent">
+										<div class="tg-description">
+											<p><span>A.</span>Bring your own laptop and other devices such as your phone, tablet, chargers, travel and laptop adapters etc. Also bring your personal items and whatever you think you would need!</p>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<!--<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+					</div>
+					<!--<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 							<div class="tg-askquestion">
 								<div class="tg-heading">
 									<h2>Didn't find yet?<span>Ask your question</span></h2>
@@ -848,57 +877,81 @@
 								</form>
 							</div>
 						</div>-->
-					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 
-			<!--************************************
+		<!--************************************
 					Ask Question End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Brands Start
 			*************************************-->
-			<section id="tg-sponsors" class="tg-sectionspace tg-haslayout">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-							<div class="tg-sectionhead">
-								<div class="tg-sectionheading">
-									<span>Trusted hands behind us</span>
-									<h2>Our Sponsors</h2>
-								</div>
-								<!--<div class="tg-description">
+		<section id="tg-sponsors" class="tg-sectionspace tg-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+						<div class="tg-sectionhead">
+							<div class="tg-sectionheading">
+								<span>Trusted hands behind us</span>
+								<h2>Our Sponsors</h2>
+							</div>
+							<!--<div class="tg-description">
 									<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamcoaris nisi ut aliquipa ex ea commodo consequat aute irure.</p>
 								</div>-->
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<ul class="tg-brands">
-								<li class="tg-brand"><figure><a href="https://devfolio.co/" target="_blank"><img src="images/brands/devfolio.png" alt="image description"></a></figure></li>
-								<li class="tg-brand"><figure><a href="https://balsamiq.com" target="_blank"><img src="images/brands/balsamiq.png" alt="image description"></a></figure></li>
-								<li class="tg-brand"><figure><a href="https://tezos.com" target="_blank"><img src="images/brands/tezos.png" alt="image description"></a></figure></li>
-								<li class="tg-brand"><figure><a href="https://fold.money" target="_blank"><img src="images/brands/fold.png" alt="image description"></a></figure></li>
-								<li class="tg-brand zulip"><figure><a href="https://zulipchat.com" target="_blank"><img src="images/brands/zulip.png" alt="image description"></a></figure></li>
-								<li class="tg-brand new"><figure><a href="https://voiceflow.com" target="_blank"><img src="images/brands/voiceflow.png" alt="image description"></a></figure></li>
-								<li class="tg-brand"><figure><a href="https://matic.network" target="_blank"><img src="images/brands/matic.png" alt="image description"></a></figure></li>
-								<li class="tg-brand"><figure><a href="https://wolframalpha.com" target="_blank"><img src="images/brands/wolfram.png" alt="image description"></a></figure></li>
-								<li class="tg-brand new"><figure><a href="https://cloudsploit.com" target="_blank"><img src="images/brands/cloudsploit.png" alt="image description"></a></figure></li>
-								<li class="tg-brand new"><figure><a href="https://bugsee.com" target="_blank"><img src="images/brands/bugsee.png" alt="image description"></a></figure></li>
-								<li class="tg-brand new"><figure><a href="https://creative-tim.com" target="_blank"><img src="images/brands/creative-tim.png" alt="image description"></a></figure></li>
-								<li class="tg-brand new end"><figure><a href=""><img src="images/brands/theeducationtree.jpg" alt="image description"></a></figure></li>
-							</ul>
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<ul class="tg-brands">
+							<li class="tg-brand">
+								<figure><a href="https://devfolio.co/" target="_blank"><img src="images/brands/devfolio.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand">
+								<figure><a href="https://balsamiq.com" target="_blank"><img src="images/brands/balsamiq.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand">
+								<figure><a href="https://tezos.com" target="_blank"><img src="images/brands/tezos.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand">
+								<figure><a href="https://fold.money" target="_blank"><img src="images/brands/fold.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand zulip">
+								<figure><a href="https://zulipchat.com" target="_blank"><img src="images/brands/zulip.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand new">
+								<figure><a href="https://voiceflow.com" target="_blank"><img src="images/brands/voiceflow.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand">
+								<figure><a href="https://matic.network" target="_blank"><img src="images/brands/matic.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand">
+								<figure><a href="https://wolframalpha.com" target="_blank"><img src="images/brands/wolfram.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand new">
+								<figure><a href="https://cloudsploit.com" target="_blank"><img src="images/brands/cloudsploit.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand new">
+								<figure><a href="https://bugsee.com" target="_blank"><img src="images/brands/bugsee.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand new">
+								<figure><a href="https://creative-tim.com" target="_blank"><img src="images/brands/creative-tim.png" alt="image description"></a></figure>
+							</li>
+							<li class="tg-brand new end">
+								<figure><a href=""><img src="images/brands/theeducationtree.jpg" alt="image description"></a></figure>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</section>
-			<!--************************************
+			</div>
+		</section>
+		<!--************************************
 					Brands End
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Gallery Start
 			*************************************-->
 
-			<!--************************************
+		<!--************************************
 			<div class="tg-gallerymain">
 				<div class="tg-containerholder">
 					<div class="container">
@@ -1292,22 +1345,22 @@
 				</div>
 			</div>
 			*************************************-->
-			<!--************************************
+		<!--************************************
 					Gallery End
 			*************************************-->
 
-		</main>
-		<!--************************************
+	</main>
+	<!--************************************
 				Main End
 		*************************************-->
-		<!--************************************
+	<!--************************************
 				Footer Start
 		*************************************-->
-		<footer id="tg-footer" class="tg-footer tg-haslayout">
-			<!--************************************
+	<footer id="tg-footer" class="tg-footer tg-haslayout">
+		<!--************************************
 					Contact Us Start
 			*************************************-->
-			<!--<div class="tg-contastus tg-bgcontactus tg-sectionspace">
+		<!--<div class="tg-contastus tg-bgcontactus tg-sectionspace">
 				<h1>Want to ask something?</h1>
 
 						<div class="container">
@@ -1348,28 +1401,29 @@
 						</div>
 
 			</div>-->
-			<!--************************************
+		<!--************************************
 					Contact Us End
 			*************************************-->
-			<!--==========================
+		<!--==========================
           Climb Footer Start
       ============================-->
 
-      <div class="footer-top">
-				<div class="tg-haslayout tg-sectionspace tg-bgaddtocalendar footer">
+		<div class="footer-top">
+			<div class="tg-haslayout tg-sectionspace tg-bgaddtocalendar footer">
 
 
-    	  	<div class="container">
-    	  	  <div class="row">
+				<div class="container">
+					<div class="row">
 
-    	  	    <div class="col-lg-6 col-md-6 col-sm-12 footer-info">
-    	  	      <h3>CLIMB</h3>
-    	  	      <p>CLIMB is a community of pre-professional women from diverse backgrounds, each striving to break the glass ceiling. It provides a platform for successful women to equip themselves with relevant skills and competence to forge ahead.</p>
-								<a href="https://devfolio.co/code-of-conduct">Code of Conduct</a>
-								<br />
-    	  	    </div>
+						<div class="col-lg-6 col-md-6 col-sm-12 footer-info">
+							<h3>CLIMB</h3>
+							<p>CLIMB is a community of pre-professional women from diverse backgrounds, each striving to break the glass ceiling. It provides a platform for successful women to equip themselves with relevant skills and competence to forge ahead.
+							</p>
+							<a href="https://devfolio.co/code-of-conduct">Code of Conduct</a>
+							<br />
+						</div>
 
-    	  	    <!--
+						<!--
     	  	    <div class="col-lg-3 col-md-6 footer-links">
     	  	      <h4>Useful Links</h4>
     	  	      <ul>
@@ -1382,19 +1436,19 @@
     	  	    </div>
     	  	    -->
 
-    	  	    <div class="col-lg-6 col-md-6 col-sm-12 footer-contact">
-    	  	      <h4>Contact Us</h4>
-    	  	      <p>
-    	  	        Delhi Technological University,<br>
-    	  	        Shahbad Daulatpur, Main Bawana Road, <br>
-    	  	        Delhi-110042<br>
-    	  	        <!--<strong>Phone:</strong> +1 5589 55488 55<br>-->
-    	  	        Email: contact@climbdtu.co<br>
-    	  	      </p>
-    	  	    </div>
+						<div class="col-lg-6 col-md-6 col-sm-12 footer-contact">
+							<h4>Contact Us</h4>
+							<p>
+								Delhi Technological University,<br>
+								Shahbad Daulatpur, Main Bawana Road, <br>
+								Delhi-110042<br>
+								<!--<strong>Phone:</strong> +1 5589 55488 55<br>-->
+								Email: contact@climbdtu.co<br>
+							</p>
+						</div>
 
 
-    	  	    <!--
+						<!--
     	  	    <div class="col-lg-3 col-md-6 footer-newsletter">
     	  	      <h4>Our Newsletter</h4>
     	  	      <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
@@ -1404,35 +1458,35 @@
     	  	    </div>
     	  	    -->
 
-    	  	  </div>
-    	  	</div>
+					</div>
+				</div>
 
-					<!--************************************
+				<!--************************************
 							Bottom Bar Start
 					*************************************-->
-					<div class="tg-footerbar ">
-						<a id="tg-btnscrolltop" class="tg-btnscrolltop" href="#tg-homebanner"><i class="fa fa-chevron-up"></i></a>
-						<div class="container">
-							<div class="row">
-								<ul class="tg-socialicons pull-right">
-									<li class="tg-facebook"><a href="https://www.facebook.com/climbdtu/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-									<li class="tg-twitter"><a href="https://www.instagram.com/climb_dtu/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-									<li class="tg-linkedin"><a href="https://www.linkedin.com/company/climb-dtu" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-								</ul>
-								<p class="tg-copyrights pull-left">&nbsp;&nbsp;&nbsp;&nbsp;2020 All Rights Reserved © SheHacks DTU</p>
-							</div>
+				<div class="tg-footerbar ">
+					<a id="tg-btnscrolltop" class="tg-btnscrolltop" href="#tg-homebanner"><i class="fa fa-chevron-up"></i></a>
+					<div class="container">
+						<div class="row">
+							<ul class="tg-socialicons pull-right">
+								<li class="tg-facebook"><a href="https://www.facebook.com/climbdtu/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li class="tg-twitter"><a href="https://www.instagram.com/climb_dtu/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+								<li class="tg-linkedin"><a href="https://www.linkedin.com/company/climb-dtu" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+							<p class="tg-copyrights pull-left">&nbsp;&nbsp;&nbsp;&nbsp;2020 All Rights Reserved © SheHacks DTU</p>
 						</div>
 					</div>
-					<!--************************************
+				</div>
+				<!--************************************
 							Bottom Bar End
 					*************************************-->
-				</div>
-  	  </div>
+			</div>
+		</div>
 
-    <!-- Climb Footer End -->
+		<!-- Climb Footer End -->
 
-		</footer>
-		<!--************************************
+	</footer>
+	<!--************************************
 				Footer End
 		*************************************-->
 	</div>
@@ -1455,4 +1509,5 @@
 	<script src="js/main.js"></script>
 	<script src="js/applyWithDevfolio.js"></script>
 </body>
+
 </html>
